@@ -1,26 +1,32 @@
-h1, h2, p {
-    text-align: center;
-}
+
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
+
+h1, h2, p {
+    text-align: center;
+}
+
 .menu {
     width: 80%;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
-}
-
-.flavor {
-    text-align: left;
-    width: 50%;
-}
-
-.price{
-    text-align: right;
-    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .item p {
     display: inline-block;
 }
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
